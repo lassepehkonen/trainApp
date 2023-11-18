@@ -60,7 +60,6 @@
   </script>
   
 <main>
-  <main>
     <form on:submit|preventDefault={handleSubmit}>
       <label for="date">Päivä:</label>
       <input type="date" bind:value={date} id="date" />
@@ -83,8 +82,6 @@
       <h3 id="stationResult">{stationName}</h3>
       <h3 id="timeResult">{scheduledTime}</h3>
     </div>
-  </main>
-
 </main>
 
 <style>
